@@ -1,0 +1,24 @@
+ header nav {
+    display: flex;
+     flex-wrap: wrap;
+ }
+
+ nav{display: flex;}
+
+ main .rei {
+     flex-wrap: wrap;
+ }
+
+
+ @media(max-width:1200px) {
+
+    
+
+     main .rei,
+     .pai {
+         flex-direction: column;
+         align-items: center;
+     }
+
+
+ }
